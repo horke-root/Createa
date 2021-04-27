@@ -159,8 +159,9 @@ function web_mandelbrot(env) {
 
             var context = env.canvas().getContext('2d');
             var imageObj = new Image();
-            imageObj.src = "player.png";    
-            context.drawImage(imageObj, context.canvas.width * 0.3, context.canvas.height / 2, 106.5, 49.5)
+            imageObj.src = "player.png";
+            //console.log("[Player size: " + imageObj.naturalWidth + ", " + imageObj.naturalHeight + "]");    
+            context.drawImage(imageObj, (context.canvas.width * 0.5)-((imageObj.naturalWidth * 0.15) / 2), context.canvas.height* 0.70, imageObj.naturalWidth * 0.15, imageObj.naturalHeight * 0.15);
             
             //this code of load image but tile_input
             var tilex = sx + x * tile,
