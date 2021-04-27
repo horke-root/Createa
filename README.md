@@ -1,5 +1,5 @@
 # Createa
-Game for trip in mandelbrot fractal and build on this(Alpha)
+Game for trip in mandelbrot fractal and (build on this(Alpha))
 
 Preview:
 
