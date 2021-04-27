@@ -1,5 +1,6 @@
 # Createa
-Thanks for guciek(![Profile in github](https://github.com/guciek))\n
+Thanks for guciek(![Profile in github](https://github.com/guciek))
+ 
 Game for trip in mandelbrot fractal and (build on this(Alpha))
 
 Controls(mouse):
