@@ -1,0 +1,8 @@
+# robots.txt
+User-agent: *
+Allow: /
+# Обмеження сканування для сторінок, які не мають потрапляти в індекс
+Disallow: /FOR ME!!!!/
+
+# Вказуємо шлях до нашої карти сайту.
+Sitemap: https://horke-root.github.io/Createa/sitemap.xml
